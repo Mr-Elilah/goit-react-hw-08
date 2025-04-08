@@ -1,0 +1,12 @@
+.btn {
+  border-radius: 10px;
+  padding: 8px;
+  margin-left: auto;
+  &:hover,
+  &:focus {
+    background-color: rgb(220, 130, 130);
+  }
+}
+.text:not(:last-child) {
+  margin-bottom: 4px;
+}
