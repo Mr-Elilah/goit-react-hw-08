@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useDispatch } from "react-redux";
-import { logIn } from "../../redux/auth/Operations";
+import { logIn } from "../../redux/auth/operations";
 import toast, { Toaster } from "react-hot-toast";
 import * as Yup from "yup";
 
