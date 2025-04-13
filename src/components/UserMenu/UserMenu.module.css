@@ -7,3 +7,14 @@
 .username {
   font-weight: 700;
 }
+.btn {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 2px 8px 4px;
+  margin-left: auto;
+  &:hover,
+  &:focus {
+    background-color: rgb(220, 130, 130);
+  }
+}
